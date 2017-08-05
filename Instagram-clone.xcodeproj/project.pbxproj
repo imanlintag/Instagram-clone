@@ -12,6 +12,8 @@
 		B40805841F3544A500D2258E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40805821F3544A500D2258E /* Main.storyboard */; };
 		B40805861F3544A500D2258E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B40805851F3544A500D2258E /* Assets.xcassets */; };
 		B40805891F3544A500D2258E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B40805871F3544A500D2258E /* LaunchScreen.storyboard */; };
+		B410C4BA1F35B24600437B17 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B410C4B91F35B24600437B17 /* SignInViewController.swift */; };
+		B410C4BC1F35B25300437B17 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B410C4BB1F35B25300437B17 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B40805851F3544A500D2258E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B40805881F3544A500D2258E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B408058A1F3544A500D2258E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B410C4B91F35B24600437B17 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B410C4BB1F35B25300437B17 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				B408057C1F3544A500D2258E /* AppDelegate.swift */,
 				B408057E1F3544A500D2258E /* ViewController.swift */,
 				B40805821F3544A500D2258E /* Main.storyboard */,
+				B410C4B91F35B24600437B17 /* SignInViewController.swift */,
+				B410C4BB1F35B25300437B17 /* SignUpViewController.swift */,
 				B40805851F3544A500D2258E /* Assets.xcassets */,
 				B40805871F3544A500D2258E /* LaunchScreen.storyboard */,
 				B408058A1F3544A500D2258E /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				B408057F1F3544A500D2258E /* ViewController.swift in Sources */,
 				B408057D1F3544A500D2258E /* AppDelegate.swift in Sources */,
+				B410C4BC1F35B25300437B17 /* SignUpViewController.swift in Sources */,
+				B410C4BA1F35B24600437B17 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				B408058F1F3544A500D2258E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
